@@ -1,4 +1,4 @@
-import React, {Component} from '.react';
+import React, {Component} from 'react';
 import './History.css';
 import axios from 'axios';
 import moment from 'moment';
