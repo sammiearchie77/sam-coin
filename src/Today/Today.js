@@ -1,4 +1,4 @@
-import React, {Component, component} from 'react';
+import React, {Component} from 'react';
 import './Today.css';
 import axios from './axios';
 
