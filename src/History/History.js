@@ -22,7 +22,7 @@ class History extends Component () {
         return axios.get('https://min-api.cryptocompare.com/data/pricehistorical?fsym=ETH&tsyms=USD&ts=' + date);
     }
     // This function gets the BTC price for a specific timestamp/date. The date is passed in as an argument
-    getBTCprices(date) {
+    getBTCPrices(date) {
         return axios.get('https://min-api.cryptocompare.com/data/pricehistorical?fsym=BTC&tsyms=USD&ts=' + date);
     }
     // This function gets the LTC price for a specific timestamp/date. The date is passed in as an argument
