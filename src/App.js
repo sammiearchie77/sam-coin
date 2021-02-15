@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Today from './Today/Today';
-import History from './History/History';
+import History from './History/History.js';
 import './App.css';
 
 class App extends Component {
